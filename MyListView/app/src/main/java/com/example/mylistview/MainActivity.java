@@ -55,7 +55,6 @@ public class MainActivity extends AppCompatActivity {
             hero.setDescription(dataDescription[i]);
             heroes.add(hero);
         }
-
         adapter.setHeroes(heroes);
     }
 }
